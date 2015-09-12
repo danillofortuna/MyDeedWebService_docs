@@ -1,0 +1,12 @@
+autenticarUsuario: 
+	
+	Descrição:
+		#Verifica as credenciais do usuário informado e retorna sua identificação única.
+
+	Parametros:
+		#login: recebe o login(email) do usuário.
+		#senha: recebe a senha a ser verificada.
+
+	Retorno:
+		#("_"): usuário não encontrado.
+		#(String <> "_"): Nome(identificação única) do usuário autenticado. Senha informada corretamente.

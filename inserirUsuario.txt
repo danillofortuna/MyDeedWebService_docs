@@ -1,0 +1,17 @@
+inserirUsuario:
+	
+	Descrição:
+		#insere um novo usuário do sistema.
+
+	Parametros:
+		#nome:  recebe o nome do novo usuário.
+		#email: recebe o email(login) do novo usuário.
+		#senha: recebe a senha do novo usuário.
+
+	Retorno:
+		#(-1): algum dos campos está vazio. É necessário preencher todos.
+		#(-2): email já cadastrado (login deve ser único).
+		#(-3): nome já cadastrado (identificação dentro do sistema deve ser única).
+		#(-4): senha inválida(menos de 6 caracteres).
+		#(int > 0): id do novo usuário. Cadastro realizado com sucesso.
+
