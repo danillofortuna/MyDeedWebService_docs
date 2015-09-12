@@ -1,0 +1,12 @@
+As validações estão fracas e ainda não pensei se é a melhor forma
+usar o nome como identificação única, afinal, se for assim, nunca será permitido
+repetir um nome, mesmo que o antigo tenha sido alterado ou excluido.
+Essa é apenas uma versão de teste para ver a velocidade do consumo do webservice com rede 3g.
+
+Sempre que eu adicionar uma função ou alterar, irei commitar a documentação dela nesse mesmo padrão
+que commitei as duas primeiras.
+
+O webservice está rodando em uma máquina virtual no cloud.google.com, é gratuito por mais 58 dias.
+O valor após isso vai depender dos requisitos(hardware) que eu quiser, n tenho nem noção do preço ainda.
+Mas sei que não é barato.
+Ela sempre estará ligada, a não ser que acabe a energia no google.
