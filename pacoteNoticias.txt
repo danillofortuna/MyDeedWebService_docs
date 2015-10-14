@@ -1,0 +1,12 @@
+pacoteNoticias: 
+	
+	Descrição:
+		#Puxa um pacote de notícias.
+
+	Parametros:
+		#codigoLocal: recebe o maior código de notícia cadastrado localmente.
+		#quantidade:  recebe a quantidade de notícias que se deseja ter no pacote.
+
+	Retorno:
+		# "empty":  caso não exista notícia cadastrada com o código acima do enviado.
+		# XML:      String com o xml das notícias cadastradas.

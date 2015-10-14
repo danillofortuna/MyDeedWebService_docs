@@ -1,0 +1,28 @@
+inserirNoticia: 
+	
+	Descrição:
+		#Insere uma notícia e retorna o seu ID caso a inserção seja um sucesso.
+
+	Parametros:
+		#dataChegada:  recebe uma String com a data de chegada no formato "dd/mm/yyyy HH:mm:ss".
+		#dataSaida:    recebe uma String com a data de saída no formato "dd/mm/yyyy HH:mm".
+		#dataPostagem: recebe uma String com a data de postagem no formato "dd/mm/yyyy HH:mm".
+		#descricao:    recebe uma String com a descrição da notícia.
+		#listaAcoes:   recebe uma String com os IDs das acoes realizadas, separadas por ",".
+		#observacoes:  recebe uma String com a observação.
+		#autor:        recebe uma String com o nome do autor (texto recebido na hora da autenticação).
+		#cliente:      recebe uma String com o nome do cliente.
+		#numOS:        recebe um inteiro com o número da OS.
+		#equipamento:  recebe uma String com o nome do equipamento.
+
+	Retorno:
+		# -1: caso a lista de ações seja inválida.
+		# -2: caso a data de chegada esteja em formato errado ou seja uma data inválida.
+		# -3: caso a data de saída esteja em formato errado ou seja uma data inválida.
+		# -4: caso a data de postagem esteja em formato errado ou seja uma data inválida.
+		# -5: caso não seja encontrado autor com o nome especificado.
+		# -6: caso não seja encontrado cliente com o nome especificado.
+		# -7: caso a String do equipamento tenha mais de 100 caracteres.
+		# -8: caso a String da observação tenha mais de 300 caracteres.
+		# -9: caso a String da descrição tenha mais de 200 caracteres.
+		# retorno>0: id da notícia cadastrada.
