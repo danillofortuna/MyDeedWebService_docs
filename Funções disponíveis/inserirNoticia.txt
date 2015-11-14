@@ -14,6 +14,7 @@ inserirNoticia:
 		#cliente:      recebe uma String com o nome do cliente.
 		#numOS:        recebe um inteiro com o número da OS.
 		#equipamento:  recebe uma String com o nome do equipamento.
+              	#hash:        recebe a hash de autenticação do usuário logado.
 
 	Retorno:
 		# -1: caso a lista de ações seja inválida.

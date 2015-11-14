@@ -7,6 +7,7 @@ pacoteMensagens:
 		#codigoNoticia: recebe o código da notícia da qual se deseja as mensagens.
 		#codigoLocal    recebe o maior código de mensagem cadastrado localmente desta notícia.
 		#quantidade:    recebe a quantidade de mensagens que se deseja ter no pacote.
+		#hash:        recebe a hash de autenticação do usuário logado.
 
 	Retorno:
 		# "empty":  caso não exista mensagem desta notícia cadastrada com o código acima do enviado.

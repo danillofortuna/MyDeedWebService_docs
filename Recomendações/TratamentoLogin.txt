@@ -1,0 +1,58 @@
+Devem ser criadas as seguintes funções:
+____________________________________________________________________________________________
+||function trataLogin(resultado : integer) : integer; Overload;
+||begin
+||	if resultado = -404 then
+||	begin
+||		try
+||			abort
+||		finally
+||			showmessage("Você foi desconectado. Faça login para continuar");
+||			realizarLogout;
+||		end
+||	end
+||	else
+||	begin
+||		result := resultado;
+||	end
+||end
+--------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+||function trataLogin(resultado : string) : string; Overload;
+||begin
+||	if resultado = "-404" then
+||	begin
+||		try
+||			abort
+||		finally
+||			showmessage("Você foi desconectado. Faça login para continuar");
+||			realizarLogout;
+||		end
+||	end
+||	else
+||	begin
+||		result := resultado;
+||	end
+||end
+---------------------------------------------------------------------------------------------
+
+Todas as funções que fazem requisições ao webservice devem passar pelo filtro criado. Exceto a {autenticaUsuario}.
+Exemplo:
+
+#ATUALMENTE#################################################
+#                                                          #
+#	function funcaoQualquerEncapsulada : integer;      #
+#	begin                                              #
+#		result := webServiceGlobal.FuncaoQualquer; #
+#	end;                                               #
+############################################################ 
+
+#DE AGORA EM DIANTE#####################################################
+#                                                                      #    
+#	function funcaoQualquerEncapsulada : integer;                  #
+#	begin                                                          #
+#		result := trataLogin(webServiceGlobal.FuncaoQualquer); #
+#	end;                                                           #
+########################################################################	
+

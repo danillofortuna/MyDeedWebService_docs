@@ -1,0 +1,14 @@
+inserirCliente:
+	
+	Descrição:
+		#insere um novo cliente no sistema.
+
+	Parametros:
+		#nome:  recebe o nome do novo cliente.
+                #hash:  recebe a hash de autenticação do usuário logado.
+	Retorno:
+		#(-1): campo nome está vazio. É necessário preencher.
+		#(-2): cliente já cadastrado (nome deve ser único).
+		#(-3): nome tem mais de 20 caracteres.
+		#(int > 0): id do novo cliente. Cadastro realizado com sucesso.
+

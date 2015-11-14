@@ -1,0 +1,11 @@
+logout: 
+	
+	Descrição:
+		#Realiza o logout do usuário.
+
+	Parametros:
+		#hash:  recebe a hash de login do usuario.
+
+	Retorno:
+		#("_"): usuário não encontrado.
+		#(String <> "_"): email do usuário logoutado.

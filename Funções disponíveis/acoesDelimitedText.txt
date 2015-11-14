@@ -1,0 +1,12 @@
+acoesDelimitedText: 
+	
+	Descrição:
+		#Puxa todas as acoes.
+
+	Parametros:
+		#delimitador: recebe o delimitador que irá separar as ações puxadas.
+		#hash:        recebe a hash de autenticação do usuário logado.
+
+	Retorno:
+		# " ":  caso não exista acao cadastrada.
+		# XML:      String com o delimitedText das acoes cadastradas.

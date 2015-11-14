@@ -1,0 +1,12 @@
+clientesDelimitedText: 
+	
+	Descrição:
+		#Puxa todos os clientes.
+
+	Parametros:
+		#delimitador: recebe o delimitador que irá separar os clientes puxados.
+		#hash:        recebe a hash de autenticação do usuário logado.
+
+	Retorno:
+		# " ":  caso não exista cliente cadastrado.
+		# XML:      String com o delimitedText dos clientes cadastrados.

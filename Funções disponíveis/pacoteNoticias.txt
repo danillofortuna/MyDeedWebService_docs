@@ -6,6 +6,8 @@ pacoteNoticias:
 	Parametros:
 		#codigoLocal: recebe o maior código de notícia cadastrado localmente.
 		#quantidade:  recebe a quantidade de notícias que se deseja ter no pacote.
+		#delimitador: receber o delimitador que irá separar as ações puxadas.
+		#hash:        recebe a hash de autenticação do usuário logado.
 
 	Retorno:
 		# "empty":  caso não exista notícia cadastrada com o código acima do enviado.

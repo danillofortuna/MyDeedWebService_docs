@@ -6,7 +6,9 @@ autenticarUsuario:
 	Parametros:
 		#login: recebe o login(email) do usuário.
 		#senha: recebe a senha a ser verificada.
+		#novaHash:  recebe a hash de login do usuario.
 
 	Retorno:
 		#("_"): usuário não encontrado.
+		#("-1"): usuário já está logado.
 		#(String <> "_"): Nome(identificação única) do usuário autenticado. Senha informada corretamente.

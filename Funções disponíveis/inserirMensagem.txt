@@ -9,6 +9,7 @@ inserirMensagem:
 		#texto:       recebo o texto da mensagem;
 		#imagem:      recebe o caminho da imagem para download;
 		#data:        recebe a data no formato: 'dd/mm/aaaa hh:mm/ss' em uma String.
+		#hash:        recebe a hash de autenticação do usuário logado.
 
 	Retorno:
 		# -1:        caso não exista notícia cadastrada com o código enviado.
