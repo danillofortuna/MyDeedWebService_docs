@@ -1,0 +1,28 @@
+O* endereço http do Serviço Rest é: http://mydeedws.risetecnologia.com/MyDeedRestService/
+
+*Todos os métodos que serão consumidos pelo app estarão no diretório '/mobile', 
+ou seja, o endereço sempre iniciará com: "http://mydeedws.risetecnologia.com/MyDeedRestService/mobile/"
+
+*Para chamar um método específico basta adicionar o seu nome após o endereço.
+
+*Para adicionar parâmetros na chamada de um método basta colocar o caractere '?'
+após o nome do método e especificar o nome do parâmetro seguido de '=' e o seu
+valor. 
+
+*Para adicionar mais de um parametro basta separá-los com o caractere '&'.
+
+Exemplo Prático para chamar o método SOMAR:
+
+################################
+# Somar(valor1, valor2){       #
+#                              #
+#  	return valor1+valor2;  #
+# }                            #
+#                              #
+################################
+
+-acesse no seu navegador: http://mydeedws.risetecnologia.com/MyDeedRestService/mobile/somar?valor1=5&valor2=10
+
+
+
+
